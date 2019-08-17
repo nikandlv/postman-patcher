@@ -1,0 +1,1 @@
+                onClick: this.handleFieldChange.bind(this, `${__WEBPACK_IMPORTED_MODULE_11__constants_SettingsGeneralConstants__["c" /* CATEGORY_EDITOR */]}.${__WEBPACK_IMPORTED_MODULE_11__constants_SettingsGeneralConstants__["p" /* SHOW_ICONS */]}`) }))),

@@ -1,4 +1,5 @@
-                    onClick: this.handleFieldChange.bind(this, `${__WEBPACK_IMPORTED_MODULE_11__constants_SettingsGeneralConstants__["c" /* CATEGORY_EDITOR */]}.${__WEBPACK_IMPORTED_MODULE_11__constants_SettingsGeneralConstants__["p" /* SHOW_ICONS */]}`) }))),
+/* patched */ onClick: this.handleFieldChange.bind(this, `${__WEBPACK_IMPORTED_MODULE_11__constants_SettingsGeneralConstants__["c" /* CATEGORY_EDITOR */]}.${__WEBPACK_IMPORTED_MODULE_11__constants_SettingsGeneralConstants__["p" /* SHOW_ICONS */]}`) }))),
+
                     
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'settings-general-list-item' },
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'settings-general-list-item-label' }, 'Allow javascript in previews'),
