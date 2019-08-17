@@ -36,7 +36,22 @@ nikandlv@nikandlv.ir:~/Postman$
 
 `File > Settings > USER INTERFACE > [Disable Sandbox] Allow javascript in previews (requires restart)`
 
+
+
 ## Restart and enjoy
+
+## Images
+
+![Settings](./settings.png)
+
+#### Before
+
+![Before](./before.png)
+
+#### After
+
+![After](./after.png)
+
 
 ## Restore
 
