@@ -1,0 +1,14 @@
+                    onClick: this.handleFieldChange.bind(this, `${__WEBPACK_IMPORTED_MODULE_11__constants_SettingsGeneralConstants__["c" /* CATEGORY_EDITOR */]}.${__WEBPACK_IMPORTED_MODULE_11__constants_SettingsGeneralConstants__["p" /* SHOW_ICONS */]}`) }))),
+                    
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'settings-general-list-item' },
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'settings-general-list-item-label' }, 'Allow javascript in previews'),
+        
+        
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'settings-general-list-item-value' },
+                      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_3__base_ToggleSwitch__["a" /* default */], {
+                        isActive: localStorage.getItem("allow_javascript") == '1',
+                        onClick: () => {
+                          var js_enabled = localStorage.getItem("allow_javascript") == '1' ? '0' : '1';
+                          localStorage.setItem("allow_javascript", js_enabled);
+                          this.forceUpdate()
+                        } }))),
