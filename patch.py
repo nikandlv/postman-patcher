@@ -19,13 +19,14 @@ if os.path.isfile(RequesterModalContainer):
   print('Backing up RequesterModalContainer.js -> RequesterModalContainer.js.back')
   copyfile(RequesterModalContainer, RequesterModalContainerBackup)
 
+  print('* applying patch on RequesterModalContainer.js')
   for line in fileinput.input([RequesterModalContainer], inplace=True):
     print(line.replace(requester_modal_container_needle, requester_modal_container_patch), end='')
 
 else:
   print('RequesterModalContainer.js Not found!')
 
-# Patch 
+# Patch VendorShared
 VendorShared = './app/resources/app/js/vendor-shared.js'
 VendorSharedBackup = VendorShared + '.back'
 print('Patching vendor-shared.js')
@@ -50,9 +51,11 @@ if os.path.isfile(VendorShared):
   print('Backing up vendor-shared.js -> vendor-shared.js.back')
   copyfile(VendorShared, VendorSharedBackup)
 
+  print('* applying patch on vendor-shared.js')
   for line in fileinput.input([VendorShared], inplace=True):
     print(line.replace(vendor_shared_needle, vendor_shared_patch), end='')
-
+  
+  print('* applying patch 1 on vendor-shared.js')
   for line in fileinput.input([VendorShared], inplace=True):
     print(line.replace(vendor_shared_needle_1, vendor_shared_patch_1), end='')
 
