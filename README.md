@@ -63,3 +63,9 @@ nikandlv@nikandlv.ir:~/Postman$ python3 restore.py
 * Restored vendor-shared.js
 nikandlv@nikandlv.ir:~/Postman$
 ```
+
+# Important Note
+
+This project is just a feature that we all need but they havent implemented this yet. theres also an issue from may that havent got anywhere
+
+#### Postman updates itself so you probably need to patch again after an update
