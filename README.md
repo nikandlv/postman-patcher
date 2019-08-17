@@ -12,7 +12,8 @@ But what if you need to run your `react`, `vue` or any other javascript scripts.
 
 ```console
 nikandlv@nikandlv.ir:~$ cd Postman
-nikandlv@nikandlv.ir:~/Postman$ git clone https://github.com/nikandlv/postman-patcher.git .
+nikandlv@nikandlv.ir:~/Postman$ git clone https://github.com/nikandlv/postman-patcher.git
+nikandlv@nikandlv.ir:~/Postman$ mv postman-patcher/* .
 nikandlv@nikandlv.ir:~/Postman$ python3 patch.py
 Patching RequesterModalContainer.js
 -- loading needle for RequesterModalContainer.js
