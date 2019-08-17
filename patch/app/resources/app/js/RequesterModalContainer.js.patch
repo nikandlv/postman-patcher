@@ -2,7 +2,7 @@
 
                     
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'settings-general-list-item' },
-                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'settings-general-list-item-label' }, 'Allow javascript in previews (disable sandbox)'),
+                    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'settings-general-list-item-label' }, '[Disable Sandbox] Allow javascript in previews (requires restart)'),
         
         
                     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('div', { className: 'settings-general-list-item-value' },

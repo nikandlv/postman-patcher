@@ -3,12 +3,13 @@
 > Postman does not allow you to render javascript in your response previews, And thats for a good reason. they limit the scripts for security 
 
 But what if you need to run your `react`, `vue` or any other javascript scripts. Saddly postman does not give you an option to allow or disallow javascript manually, So thats why this project exists
+
 ## Requirements
 
 * Postman ^7
 * Python3
 
-## Patch
+## Patch it
 
 ```console
 nikandlv@nikandlv.ir:~$ cd Postman
@@ -30,6 +31,12 @@ Backing up vendor-shared.js -> vendor-shared.js.back
 * applying patch 1 on vendor-shared.js
 nikandlv@nikandlv.ir:~/Postman$
 ```
+
+## Enable it
+
+`File > Settings > USER INTERFACE > [Disable Sandbox] Allow javascript in previews (requires restart)`
+
+## Restart and enjoy
 
 ## Restore
 
