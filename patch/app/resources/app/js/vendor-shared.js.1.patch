@@ -1,0 +1,7 @@
+data = resource.responseBody;
+if(localStorage.getItem("allow_javascript") == '1') {
+    data = data.replace('"//','"http://');
+} else {
+    let re = /<script\b[^>]*>([\s\S]*?)<\/script>/gm,
+    data = resource.responseBody.replace(re, '');
+}

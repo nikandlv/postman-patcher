@@ -1,0 +1,2 @@
+    let re = /<script\b[^>]*>([\s\S]*?)<\/script>/gm,
+    data = resource.responseBody.replace(re, '');

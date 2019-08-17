@@ -1,0 +1,6 @@
+  render() {
+    return (
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('iframe', {
+        className: this.props.className,
+        sandbox: sandboxRestrictions // https://developer.mozilla.org/en/docs/Web/HTML/Element/iframe#attr-sandbox
+        , src: this.props.src }));
