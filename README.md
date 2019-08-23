@@ -8,6 +8,7 @@ But what if you need to run your `react`, `vue` or any other javascript scripts.
 
 * Postman ^7
 * Python3
+* Mac or Linux versions
 
 ## Patch it
 
@@ -69,3 +70,6 @@ nikandlv@nikandlv.ir:~/Postman$
 This project is just a feature that we all need but they havent implemented this yet. theres also an issue from may that havent got anywhere
 
 #### Postman updates itself so you probably need to patch again after an update
+
+## Todo
+- add windows support
