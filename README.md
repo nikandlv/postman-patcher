@@ -6,8 +6,13 @@ But what if you need to run your `react`, `vue` or any other javascript scripts.
 
 ## Requirements
 
-* Postman ^7
+* Postman ^7.6.0
 * Python3
+* Mac or Linux versions
+
+## Older versions
+
+You can find the patcher for older versions of postman in their own release branch
 
 ## Patch it
 
@@ -69,3 +74,6 @@ nikandlv@nikandlv.ir:~/Postman$
 This project is just a feature that we all need but they havent implemented this yet. theres also an issue from may that havent got anywhere
 
 #### Postman updates itself so you probably need to patch again after an update
+
+## Todo
+- add windows support
