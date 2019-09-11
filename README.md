@@ -6,9 +6,13 @@ But what if you need to run your `react`, `vue` or any other javascript scripts.
 
 ## Requirements
 
-* Postman ^7
+* Postman ^7.6.0
 * Python3
 * Mac or Linux versions
+
+## Older versions
+
+You can find the patcher for older versions of postman in their own release branch
 
 ## Patch it
 
