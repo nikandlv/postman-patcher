@@ -4,15 +4,17 @@ import fileinput
 from sys import platform
 import sys
 
+print('Platform:' + platform)
+
 if platform == "win32":
   print('Windows is not supported yet!')
   sys.exit()
 
 isLinux = platform == "linux" or platform == "linux2"
-
 # Patch RequesterModalContainer
 RequesterModalContainer = './app/resources/app/js/RequesterModalContainer.js' if isLinux else './Contents/Resources/app/js/RequesterModalContainer.js'
 RequesterModalContainerBackup = RequesterModalContainer + '.back'
+print('RequesterModalContainer Target:' + RequesterModalContainer)
 print('Patching RequesterModalContainer.js')
 if os.path.isfile(RequesterModalContainer):
 
@@ -36,7 +38,7 @@ else:
 
 # Patch VendorShared
 VendorShared = './app/resources/app/js/vendor-shared.js' if isLinux else './Contents/Resources/app/js/vendor-shared.js'
-
+print('VendorShared Target:' + VendorShared)
 VendorSharedBackup = VendorShared + '.back'
 print('Patching vendor-shared.js')
 if os.path.isfile(VendorShared):
