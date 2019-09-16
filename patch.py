@@ -1,9 +1,11 @@
 import os.path
 from shutil import copyfile
 import fileinput
+from sys import platform
 
 # Patch RequesterModalContainer
-RequesterModalContainer = './app/resources/app/js/RequesterModalContainer.js'
+isLinux = platform == "linux" or platform == "linux2"
+RequesterModalContainer = './app/resources/app/js/RequesterModalContainer.js' if isLinux else './Contents/Resources/app/js/RequesterModalContainer.js'
 RequesterModalContainerBackup = RequesterModalContainer + '.back'
 print('Patching RequesterModalContainer.js')
 if os.path.isfile(RequesterModalContainer):
