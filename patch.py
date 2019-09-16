@@ -2,10 +2,15 @@ import os.path
 from shutil import copyfile
 import fileinput
 from sys import platform
+import sys
 
-# Patch RequesterModalContainer
+if platform == "win32":
+  print('Windows is not supported yet!')
+  sys.exit()
+
 isLinux = platform == "linux" or platform == "linux2"
 
+# Patch RequesterModalContainer
 RequesterModalContainer = './app/resources/app/js/RequesterModalContainer.js' if isLinux else './Contents/Resources/app/js/RequesterModalContainer.js'
 RequesterModalContainerBackup = RequesterModalContainer + '.back'
 print('Patching RequesterModalContainer.js')
